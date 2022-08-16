@@ -24,7 +24,7 @@ export function Tareas() {
       <div>
       
       
-          <div className="tarea1" style={{ display: "grid", gridTemplateColumns: "1fr 2fr",marginLeft:"80px",marginRight:"80px",marginTop:"20px" }}>
+          <div className="tarea1" style={{ display: "grid", gridTemplateColumns: "1fr 2fr",marginLeft:"80px",marginRight:"80px",marginTop:"20px",marginBottom:"120px" }}>
       
             <ul className="container-row">
               <h1>Mis tareas</h1>

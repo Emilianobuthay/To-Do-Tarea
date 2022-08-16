@@ -53,7 +53,7 @@ export function Tareas2() {
       <ul className="container-row">
       <h1>Mis tareas</h1>
         {tareas.map((tarea) => (
-            <li className="row" key={tarea.titulo}>
+            <li className="row" key={tarea.id}>
               <div className="repo-id">
                   <a className="link"  onClick={showHtmlDiv(tarea.titulo,tarea.fecha_creacion,tarea.descripcion)} >
                        <h3 className="titulo-link">{tarea.titulo}</h3> 
